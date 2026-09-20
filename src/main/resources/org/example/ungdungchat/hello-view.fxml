@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.example.ungdungchat.HelloController"
+           prefWidth="520" prefHeight="620"
+           stylesheets="@style.css"
+           styleClass="nen-chinh">
+
+    <VBox spacing="10" maxWidth="340" maxHeight="-Infinity" styleClass="the-trang">
+        <padding>
+            <Insets top="30" right="30" bottom="30" left="30"/>
+        </padding>
+
+        <Label text="CHAT APP" styleClass="tieu-de-lon"/>
+        <Label text="Kết nối tới server để bắt đầu trò chuyện" styleClass="phu-de"/>
+        <Separator/>
+
+        <Label text="Tên của bạn" styleClass="nhan"/>
+        <TextField fx:id="txtTen" promptText="Nhập tên hiển thị"
+                   onAction="#onKetNoi" styleClass="o-nhap"/>
+
+        <Label text="Địa chỉ server" styleClass="nhan"/>
+        <TextField fx:id="txtHost" text="localhost" styleClass="o-nhap"/>
+
+        <Label text="Port" styleClass="nhan"/>
+        <TextField fx:id="txtPort" text="8888" styleClass="o-nhap"/>
+
+        <Button fx:id="btnKetNoi" text="Kết nối" onAction="#onKetNoi"
+                maxWidth="Infinity" prefHeight="40" styleClass="nut-chinh">
+            <VBox.margin>
+                <Insets top="8"/>
+            </VBox.margin>
+        </Button>
+
+        <Label fx:id="lblLoi" wrapText="true" styleClass="loi"/>
+    </VBox>
+</StackPane>

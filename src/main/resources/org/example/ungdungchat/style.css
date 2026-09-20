@@ -1,0 +1,169 @@
+/* ===================== MÀU CHUNG ===================== */
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -mau-chinh: #2563eb;
+    -mau-nen: #f4f6fb;
+}
+
+/* ===================== MÀN HÌNH ĐĂNG NHẬP ===================== */
+.nen-chinh {
+    -fx-background-color: #f4f6fb;
+}
+
+.the-trang {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 20, 0, 0, 6);
+}
+
+.tieu-de-lon {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2563eb;
+}
+
+.phu-de {
+    -fx-text-fill: #6b7280;
+    -fx-font-size: 12.5px;
+}
+
+.nhan {
+    -fx-text-fill: #374151;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.o-nhap {
+    -fx-pref-height: 38;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d1d5db;
+    -fx-background-color: white;
+    -fx-padding: 0 10 0 10;
+}
+
+.o-nhap:focused {
+    -fx-border-color: #2563eb;
+}
+
+.nut-chinh {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.nut-chinh:hover  { -fx-background-color: #1d4ed8; }
+.nut-chinh:disabled { -fx-opacity: 0.6; }
+
+.loi {
+    -fx-text-fill: #dc2626;
+    -fx-font-size: 12px;
+}
+
+/* ===================== MÀN HÌNH CHAT ===================== */
+.thanh-tieu-de {
+    -fx-background-color: #2563eb;
+}
+
+.tieu-de-phong {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.ten-toi {
+    -fx-text-fill: #dbeafe;
+    -fx-font-size: 12.5px;
+}
+
+.vung-chat {
+    -fx-background: #f4f6fb;
+    -fx-background-color: #f4f6fb;
+}
+
+.vung-chat .viewport {
+    -fx-background-color: #f4f6fb;
+}
+
+.cot-phai {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb transparent transparent transparent;
+}
+
+.nhan-cot {
+    -fx-text-fill: #6b7280;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.thanh-nhap {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb transparent transparent transparent;
+}
+
+.o-tin-nhan {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color: #d1d5db;
+    -fx-padding: 0 14 0 14;
+}
+
+.o-tin-nhan:focused { -fx-border-color: #2563eb; }
+
+.nut-gui {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 18;
+    -fx-cursor: hand;
+}
+
+.nut-gui:hover { -fx-background-color: #1d4ed8; }
+
+.nut-phu {
+    -fx-background-color: #e5e7eb;
+    -fx-text-fill: #374151;
+    -fx-background-radius: 18;
+    -fx-cursor: hand;
+}
+
+.nut-phu:hover { -fx-background-color: #d1d5db; }
+
+/* ===================== BONG BÓNG TIN NHẮN ===================== */
+.bong-toi {
+    -fx-background-color: #2563eb;
+    -fx-background-radius: 12;
+}
+
+.bong-ho {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 12;
+}
+
+.noi-dung-toi { -fx-text-fill: white; }
+.noi-dung-ho  { -fx-text-fill: #111827; }
+
+.info-toi { -fx-font-size: 10.5px; -fx-text-fill: #dbeafe; }
+.info-ho  { -fx-font-size: 10.5px; -fx-text-fill: #9ca3af; }
+
+.ten-file-toi { -fx-text-fill: white;   -fx-font-weight: bold; }
+.ten-file-ho  { -fx-text-fill: #111827; -fx-font-weight: bold; }
+
+.btn-nho {
+    -fx-font-size: 11px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-padding: 3 10 3 10;
+}
+
+.thong-bao {
+    -fx-font-size: 11.5px;
+    -fx-text-fill: #6b7280;
+    -fx-background-color: #e5e7eb;
+    -fx-background-radius: 10;
+    -fx-padding: 4 10 4 10;
+}
